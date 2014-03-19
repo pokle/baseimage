@@ -1,0 +1,6 @@
+# Automatically picks the nearest mirror
+# From http://askubuntu.com/questions/39922/how-do-you-select-the-fastest-mirror-from-the-command-line/9035#9035
+deb mirror://mirrors.ubuntu.com/mirrors.txt precise main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt precise-updates main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt precise-backports main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt precise-security main restricted universe multiverse
